@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <header class="py-5">
+
+        <h1 class="text-center">
+
+            <span class="text-primary">Computers</span>
+            Shop
+
+        </h1>
+
+    </header>
+
+    <div class="border-top py-4">
+
+        <div class="navbar navbar-expand-lg container navbar-light">
+
+            <a class="navbar-brand nombre-sitio d-lg-none fs-2 fw-bold text-uppercase" href="index.html">
+                Computers Shop
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="navegacion" class="collapse navbar-collapse">
+
+                <nav class="navbar-nav container d-flex flex-md-row justify-content-md-evenly text-center">
+                    <a class="text-dark text-decoration-none" href="index.html">Home</a>
+                    <a class="text-dark text-decoration-none" href="about.html">About Us</a>
+                    <a class="text-dark text-decoration-none" href="store.html">Store</a>
+                    <a class="text-dark text-decoration-none" href="blog.html">Blog</a>
+                    <a class="text-dark text-decoration-none" href="gallery.html">Gallery</a>
+                    <a class="text-dark text-decoration-none" href="contact.html">Contact</a>
+                </nav>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <main class="container-xl py-5">
+
+        <h2 class="text-center my-5">Contact</h2>
+
+        <div class="row justify-content-center">
+
+            <form class="col-md-8 needs-validation" novalidate>
+
+                <fieldset>
+
+                    <legend class="bg-primary text-center text-white fs-2 fw-bold">Reach Us</legend>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="nombre">Name:</label>
+                        <input class="form-control" type="text" id="nombre" placeholder="Insert your name" required>
+                        <span class="invalid-feedback">There was an issue...</span>
+                        <span class="valid-feedback">Thank you!</span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="subject">Subject:</label>
+                        <input class="form-control" type="text" id="subject" placeholder="Insert the subject" required>
+                        <span class="invalid-feedback">There was an issue...</span>
+                        <span class="valid-feedback">Thank you!</span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="email">E-mail:</label>
+                        <input class="form-control" type="email" id="email" placeholder="Insert your E-mail" required>
+                        <span class="invalid-feedback">There was an issue...</span>
+                        <span class="valid-feedback">Thank you!</span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="telefono">Phone:</label>
+                        <input class="form-control" type="tel" id="telefono" placeholder="Insert your Phone" required>
+                        <span class="invalid-feedback">There was an issue...</span>
+                        <span class="valid-feedback">Thank you!</span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="mensaje">Message:</label>
+                        <textarea class="form-control" id="mensaje" rows="10"></textarea>
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend class="bg-primary text-center text-white fs-2 fw-bold">Country</legend>
+
+                    <div class="mb-3">
+
+                        <label class="form-label" for="pais">Country:</label>
+
+                        <select class="form-control" id="pais">
+                            <option value="">>--Select--<</option>
+                            <option value="mx">México</option>
+                            <option value="usa">USA</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="ar">Argentina</option>
+                            <option value="br">Brazil</option>
+                            <option value="col">Colombia</option>
+                        </select>
+
+                    </div>
+                </fieldset>
+
+                <fieldset>
+
+                    <legend class="bg-primary text-center text-white fs-2 fw-bold">What are you?</legend>
+
+                    <div class="mb-3 form-check">
+                        <label class="form-label" for="customer">Customer</label>
+                        <input name="tipo" class="form-check-input" type="radio" id="customer">
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <label class="form-label" for="proveedor">Supplier</label>
+                        <input name="tipo" class="form-check-input" type="radio" id="customproveedorer">
+                    </div>
+
+                </fieldset>
+
+                <div class="d-grid d-md-flex">
+
+                    <input class="btn btn-secondary fs-2 fw-bold mt-5 px5" type="submit" value="Send Form">
+
+                </div>
+
+
+            </form>
+
+        </div>
+
+    </main>
+
+
+    <footer class="pt-5 mt-5 border-top">
+
+        <div class="container-xl mt-5">
+
+            <div class="row">
+
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+
+                    <h3 class="mb-4">Products</h3>
+
+                    <nav class="d-flex flex-column">
+                        <a class="text-dark text-decoration-none" href="#">Gaming</a>
+                        <a class="text-dark text-decoration-none" href="#">Work</a>
+                        <a class="text-dark text-decoration-none" href="#">Laptops</a>
+                    </nav>
+
+                </div>
+
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+
+                    <h3 class="mb-4">About Us</h3>
+
+                    <nav class="d-flex flex-column">
+                        <a class="text-dark text-decoration-none" href="#">History</a>
+                        <a class="text-dark text-decoration-none" href="#">Values</a>
+                        <a class="text-dark text-decoration-none" href="#">Newsletter</a>
+                    </nav>
+
+                </div>
+
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+
+                    <h3 class="mb-4">Support</h3>
+
+                    <nav class="d-flex flex-column">
+                        <a class="text-dark text-decoration-none" href="#">Contact Us</a>
+                        <a class="text-dark text-decoration-none" href="#">FAQ</a>
+                        <a class="text-dark text-decoration-none" href="#">Issues?</a>
+                    </nav>
+
+                </div>
+
+            </div>
+
+            <p class="mt-5 text-center fs-2">All Rights Reserved</p>
+
+        </div>
+
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
+
