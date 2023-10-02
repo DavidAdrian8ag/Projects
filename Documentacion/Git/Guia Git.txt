@@ -1,0 +1,12 @@
+Agregar un repositorio
+Crear un repositorio desde Github
+Ir a la carpeta donde vamos a subir los archivos, boton derecho y dar "git bash here"
+git init
+git add .
+git config --global user.email krezipedtech@gmail.com
+git config --global user.name Krezitech
+git commit -m "Nombre del commit inculuyendo comillas)"
+git branch -M main
+git remote add origin "la url del repositorio github (sin comillas)"
+git push -u main
+

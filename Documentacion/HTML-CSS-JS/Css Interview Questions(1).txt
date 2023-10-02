@@ -1,0 +1,52 @@
+What is CSS?
+What is the difference between CSS and CSS3?
+What is a CSS selector?
+What is the syntax for CSS selectors?
+What is the difference between class and ID selectors?
+How do you define a class in CSS?
+How do you define an ID in CSS?
+What is the difference between padding and margin?
+What is the box model in CSS?
+What are the four values you can use with the box-sizing property?
+How do you include CSS in your HTML document?
+What is the cascade in CSS?
+What is the specificity of a CSS selector?
+What is the order of precedence for CSS rules?
+What is the difference between the display and visibility properties?
+How do you center an element horizontally and vertically?
+What is a pseudo-class in CSS?
+What are the different types of pseudo-classes in CSS?
+What is a pseudo-element in CSS?
+What are the different types of pseudo-elements in CSS?
+What is the difference between a pseudo-class and a pseudo-element?
+What is the difference between the :before and :after pseudo-elements?
+How do you create a hover effect in CSS?
+What is the difference between the float and clear properties?
+What is the difference between absolute and relative positioning?
+How do you create a fixed position element?
+What is the difference between inline and block elements?
+What is the difference between an inline element and an inline-block element?
+How do you create a responsive design in CSS?
+What is a media query in CSS?
+What are the different types of media queries in CSS?
+What is the difference between a print stylesheet and a screen stylesheet?
+What is the difference between the font-size and line-height properties?
+How do you set the font-family property in CSS?
+What is the difference between em and rem units in CSS?
+What is the difference between px and em units in CSS?
+What is the difference between a pseudo-class and a pseudo-element?
+What is the difference between a class and an ID selector?
+How do you make an element float to the left or right in CSS?
+How do you create a gradient background in CSS?
+What is the difference between the flex and grid layout systems?
+How do you create a vertical navigation menu in CSS?
+How do you create a horizontal navigation menu in CSS?
+What is the difference between the justify-content and align-items properties?
+How do you create a responsive navigation menu in CSS?
+What is the difference between the transform and transition properties?
+How do you create a drop shadow effect in CSS?
+How do you create a text shadow effect in CSS?
+What is the difference between the visibility and opacity properties?
+What is the difference between the z-index and position properties?
+-------------------------------------------------------------
+Google Codewithrandom For 500+ HTML, CSS, and JavaScript Projects🚀
