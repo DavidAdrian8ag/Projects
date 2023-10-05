@@ -1,0 +1,11 @@
+.eventos .card:hover {
+  cursor: pointer;
+}
+.eventos .card img {
+  border-radius: 0.5rem;
+}
+.eventos .card .fecha {
+  color: #877457;
+}
+
+/*# sourceMappingURL=index.css.map */

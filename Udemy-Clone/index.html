@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clon Udemy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <header class="header container-fluid d-none d-lg-block">
+        <div class="d-flex justify-content-between align-items-center p-3 shadow-sm">
+            <p class="fs-3 fw-bold m-0 me-4"> <span class="text-success">U</span>niversidad</p>
+            <form class="flex-grow-1">
+                <input type="search" class="form-control bg-light" placeholder="Busca lo que quieras">
+            </form>
+            <nav class="d-flex p-3">
+                <a href="#" class="nav-link">U for Business</a>
+                <a href="#" class="nav-link">Enseña en U</a>
+            </nav>
+            <nav>
+                <a href="#" class="btn btn-outline-dark">Iniciar sesión</a>
+                <a href="#" class="btn btn-dark">Regístrate</a>
+            </nav>
+        </div>
+    </header>
+    <section class="descuentos container-xl">
+        <div class="row justify-content-around align-items-lg-end bg-light">
+            <div class="col-lg-4 shadow bg-white texto-descuentos">
+                <div class="p-3">
+                    <h2>Último día para disfrutar descuentos</h2>
+                    <p class="descripcion">Cursos desde 10 USD$. Utiliza el cupón 10USD para pagar únicamente 10USD en cualquier curso.</p>
+                    <input placeholder="¿Qué quieres aprender?" type="search" class="form-control buscar">
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <img src="build/img/persona1.png" alt="persona1" class="img-fluid">
+            </div>
+        </div>
+    </section>
+    <section class="cursos container-xl mt-5 pt-5">
+        <h3>Una amplia selección de cursos</h3>
+        <p class="fs-4">Elige entre más de 155,000 cursos en video y en línea con nuevo contenido cada mes</p>
+        <nav class="nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link">JavaScript</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Python</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">React Native</a>
+            </li>
+        </nav>
+        <div class="categoria-curso p-4 mt-3">
+            <p class="fw-bold fs-4">Amplia tus oportunidades con JavaScript y Front End</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis maxime beatae eveniet pariatur. Placeat pariatur adipisci expedita enim excepturi laborum, deleniti alias quos, libero facere, iure quisquam! Est, asperiores quasi!</p>
+            <a href="#" class="btn btn-outline-dark">Explorar JavaScript</a>
+            <ul class="list-unstyled mt-5 listado-cursos">
+                <li class="curso">
+                    <div class="card">
+                        <img src="build/img/curso_6.jpg" class="card-img-top" alt="imagencurso6">
+                        <div class="card-body">
+                            <h4 class="titulo">Curso de JavaScript Moderno, creando 15 proyectos</h4>
+                            <p class="instructor m-0">Juan Luis Instructor</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="puntaje fw-bold text-secondary m-0 me-2">4.7</p>
+                            <img class="me-2 calificacion" src="build/img/estrellas.png" alt="calestrellas">
+                            <p class="total m-0">(3121)</p>
+                        </div>
+                        <p class="precio fw-bold">10 USD$ <span class="original fw-normal">50 USD$</span></p>
+                    </div>
+                </li>
+                <li class="curso">
+                    <div class="card">
+                        <img src="build/img/curso_2.jpg" class="card-img-top" alt="imagencurso2">
+                        <div class="card-body">
+                            <h4 class="titulo">Diseño de UX & UI con Figma, 5 Apps</h4>
+                            <p class="instructor m-0">Ian Damián Instructor</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="puntaje fw-bold text-secondary m-0 me-2">4.6</p>
+                            <img class="me-2 calificacion" src="build/img/estrellas.png" alt="calestrellas">
+                            <p class="total m-0">(5321)</p>
+                        </div>
+                        <p class="precio fw-bold">10 USD$ <span class="original fw-normal">50 USD$</span></p>
+                    </div>
+                </li>
+                <li class="curso">
+                    <div class="card">
+                        <img src="build/img/curso_10.jpg" class="card-img-top" alt="imagencurso10">
+                        <div class="card-body">
+                            <h4 class="titulo">FullStack JavaScript - Node, React & Electron</h4>
+                            <p class="instructor m-0">Daniel Andrés Instructor</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="puntaje fw-bold text-secondary m-0 me-2">4.9</p>
+                            <img class="me-2 calificacion" src="build/img/estrellas.png" alt="calestrellas">
+                            <p class="total m-0">(2857)</p>
+                        </div>
+                        <p class="precio fw-bold">10 USD$ <span class="original fw-normal">50 USD$</span></p>
+                    </div>
+                </li>
+                <li class="curso">
+                    <div class="card">
+                        <img src="build/img/curso_9.jpg" class="card-img-top" alt="imagencurso9">
+                        <div class="card-body">
+                            <h4 class="titulo">Desarrollo Web completo con React & Django</h4>
+                            <p class="instructor m-0">Adalberto Nuñez Instructor</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="puntaje fw-bold text-secondary m-0 me-2">4.8</p>
+                            <img class="me-2 calificacion" src="build/img/estrellas.png" alt="calestrellas">
+                            <p class="total m-0">(3411)</p>
+                        </div>
+                        <p class="precio fw-bold">10 USD$ <span class="original fw-normal">50 USD$</span></p>
+                    </div>
+                </li>
+                <li class="curso">
+                    <div class="card">
+                        <img src="build/img/curso_3.jpg" class="card-img-top" alt="imagencurso3">
+                        <div class="card-body">
+                            <h4 class="titulo">Diseño de Interfaces para usuario de Apps Móviles</h4>
+                            <p class="instructor m-0">Rubén Guzmán Instructor</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="puntaje fw-bold text-secondary m-0 me-2">4.5</p>
+                            <img class="me-2 calificacion" src="build/img/estrellas.png" alt="calestrellas">
+                            <p class="total m-0">(5742)</p>
+                        </div>
+                        <p class="precio fw-bold">10 USD$ <span class="original fw-normal">50 USD$</span></p>
+                    </div>
+                </li>
+                <li class="curso d-lg-none">
+                    <div class="card">
+                        <img src="build/img/curso_12.jpg" class="card-img-top" alt="imagencurso12">
+                        <div class="card-body">
+                            <h4 class="titulo">Bootcamp BackEnd - Ruby on Rails, Django & Laravel</h4>
+                            <p class="instructor m-0">Donato Carvajal Instructor</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="puntaje fw-bold text-secondary m-0 me-2">4.8</p>
+                            <img class="me-2 calificacion" src="build/img/estrellas.png" alt="calestrellas">
+                            <p class="total m-0">(2984)</p>
+                        </div>
+                        <p class="precio fw-bold">10 USD$ <span class="original fw-normal">50 USD$</span></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="bg-light my-5 py-5">
+        <div class="container-xl">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-3 mb-5 mb-md-0">
+                    <div class="d-flex justify-content-around align-items-center">
+                        <div class="me-3">
+                            <div class="icono">
+                                <i class="bi bi-collection-play-fill fs-3"></i>
+                            </div>
+                        </div>
+                        <p class="fw-bold m-0">Aprende habilidades a tu ritmo con más de 150,000 cursos en video</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5 mb-md-0">
+                    <div class="d-flex justify-content-around align-items-center">
+                        <div class="me-3">
+                            <div class="icono">
+                                <i class="bi bi-star-fill fs-3"></i>
+                            </div>
+                        </div>
+                        <p class="fw-bold m-0">Compra cursos impartidos por expertos del mundo real y obten un empleo</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5 mb-md-0">
+                    <div class="d-flex justify-content-around align-items-center">
+                        <div class="me-3">
+                            <div class="icono">
+                                <i class="bi bi-phone-fill fs-3"></i>
+                            </div>
+                        </div>
+                        <p class="fw-bold m-0">Aprende a tu ritmo, con acceso de por vida desde ordenadore y dispositivos móviles</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="container-xl p-4 mt-3">
+            <p class="fw-bold fs-4">Los Estudiantes están viendo</p>
+            <ul class="list-unstyled mt-5 listado-cursos">
+                <li class="curso">
+                    <div class="card">
+                        <img src="build/img/curso_1.jpg" class="card-img-top" alt="imagencurso1">
+                        <div class="card-body">
+                            <h4 class="titulo">Curso de Guitarra, principios básicos</h4>
+                            <p class="instructor m-0">José Manuel Instructor</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="puntaje fw-bold text-secondary m-0 me-2">4.8</p>
+                            <img class="me-2 calificacion" src="build/img/estrellas.png" alt="calestrellas">
+                            <p class="total m-0">(4571)</p>
+                        </div>
+                        <p class="precio fw-bold">10 USD$ <span class="original fw-normal">50 USD$</span></p>
+                    </div>
+                </li>
+                <li class="curso">
+                    <div class="card">
+                        <img src="build/img/curso_4.jpg" class="card-img-top" alt="imagencurso4">
+                        <div class="card-body">
+                            <h4 class="titulo">Fotografía para Principiantes - Cámara y Equipo necesario</h4>
+                            <p class="instructor m-0">Iván Elías Instructor</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="puntaje fw-bold text-secondary m-0 me-2">4.5</p>
+                            <img class="me-2 calificacion" src="build/img/estrellas.png" alt="calestrellas">
+                            <p class="total m-0">(3876)</p>
+                        </div>
+                        <p class="precio fw-bold">10 USD$ <span class="original fw-normal">50 USD$</span></p>
+                    </div>
+                </li>
+                <li class="curso">
+                    <div class="card">
+                        <img src="build/img/curso_5.jpg" class="card-img-top" alt="imagencurso5">
+                        <div class="card-body">
+                            <h4 class="titulo">Curso de Ventas por Internet e Instagram</h4>
+                            <p class="instructor m-0">Julio Pulido Instructor</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="puntaje fw-bold text-secondary m-0 me-2">4.6</p>
+                            <img class="me-2 calificacion" src="build/img/estrellas.png" alt="calestrellas">
+                            <p class="total m-0">(4651)</p>
+                        </div>
+                        <p class="precio fw-bold">10 USD$ <span class="original fw-normal">50 USD$</span></p>
+                    </div>
+                </li>
+                <li class="curso">
+                    <div class="card">
+                        <img src="build/img/curso_7.jpg" class="card-img-top" alt="imagencurso7">
+                        <div class="card-body">
+                            <h4 class="titulo">Fundamentos Básicos de Diseño UX y UI</h4>
+                            <p class="instructor m-0">Doroteo Montes Instructor</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="puntaje fw-bold text-secondary m-0 me-2">4.7</p>
+                            <img class="me-2 calificacion" src="build/img/estrellas.png" alt="calestrellas">
+                            <p class="total m-0">(2793)</p>
+                        </div>
+                        <p class="precio fw-bold">10 USD$ <span class="original fw-normal">50 USD$</span></p>
+                    </div>
+                </li>
+                <li class="curso">
+                    <div class="card">
+                        <img src="build/img/curso_8.jpg" class="card-img-top" alt="imagencurso8">
+                        <div class="card-body">
+                            <h4 class="titulo">Diseño de Tiendas Virtuales con WooCommerce</h4>
+                            <p class="instructor m-0">Darío Martínez Instructor</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="puntaje fw-bold text-secondary m-0 me-2">4.5</p>
+                            <img class="me-2 calificacion" src="build/img/estrellas.png" alt="calestrellas">
+                            <p class="total m-0">(5816)</p>
+                        </div>
+                        <p class="precio fw-bold">10 USD$ <span class="original fw-normal">50 USD$</span></p>
+                    </div>
+                </li>
+                <li class="curso d-lg-none">
+                    <div class="card">
+                        <img src="build/img/curso_12.jpg" class="card-img-top" alt="imagencurso12">
+                        <div class="card-body">
+                            <h4 class="titulo">Bootcamp BackEnd - Ruby on Rails, Django & Laravel</h4>
+                            <p class="instructor m-0">Donato Carvajal Instructor</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <p class="puntaje fw-bold text-secondary m-0 me-2">4.8</p>
+                            <img class="me-2 calificacion" src="build/img/estrellas.png" alt="calestrellas">
+                            <p class="total m-0">(2984)</p>
+                        </div>
+                        <p class="precio fw-bold">10 USD$ <span class="original fw-normal">50 USD$</span></p>
+                    </div>
+                </li>
+            </ul>
+    </main>
+    <section class="container-xl categorias mt-3">
+        <p class="fw-bold fs-4">Categorías Principales</p>
+        <ul class="list-unstyled grid">
+            <li class="g-col-6 g-col-md-4 g-col-lg-3">
+                <a href="#" class="text-decoration-none">
+                    <div class="bg-light">
+                        <img src="build/img/iconos-01.png" alt="imgicono1" class="img-fluid">
+                    </div>
+                    <p class="fw-bold mt-2">Diseño</p>
+                </a>
+            </li>
+            <li class="g-col-6 g-col-md-4 g-col-lg-3">
+                <a href="#" class="text-decoration-none">
+                    <div class="bg-light">
+                        <img src="build/img/iconos-02.png" alt="imgicono2" class="img-fluid">
+                    </div>
+                    <p class="fw-bold mt-2">Desarrollo</p>
+                </a>
+            </li>
+            <li class="g-col-6 g-col-md-4 g-col-lg-3">
+                <a href="#" class="text-decoration-none">
+                    <div class="bg-light">
+                        <img src="build/img/iconos-03.png" alt="imgicono3" class="img-fluid">
+                    </div>
+                    <p class="fw-bold mt-2">Marketing</p>
+                </a>
+            </li>
+            <li class="g-col-6 g-col-md-4 g-col-lg-3">
+                <a href="#" class="text-decoration-none">
+                    <div class="bg-light">
+                        <img src="build/img/iconos-04.png" alt="imgicono4" class="img-fluid">
+                    </div>
+                    <p class="fw-bold mt-2">Informática & Software</p>
+                </a>
+            </li>
+            <li class="g-col-6 g-col-md-4 g-col-lg-3">
+                <a href="#" class="text-decoration-none">
+                    <div class="bg-light">
+                        <img src="build/img/iconos-05.png" alt="imgicono5" class="img-fluid">
+                    </div>
+                    <p class="fw-bold mt-2">Desarrollo Personal</p>
+                </a>
+            </li>
+            <li class="g-col-6 g-col-md-4 g-col-lg-3">
+                <a href="#" class="text-decoration-none">
+                    <div class="bg-light">
+                        <img src="build/img/iconos-06.png" alt="imgicono6" class="img-fluid">
+                    </div>
+                    <p class="fw-bold mt-2">Negocios</p>
+                </a>
+            </li>
+            <li class="g-col-6 g-col-md-4 g-col-lg-3">
+                <a href="#" class="text-decoration-none">
+                    <div class="bg-light">
+                        <img src="build/img/iconos-07.png" alt="imgicono7" class="img-fluid">
+                    </div>
+                    <p class="fw-bold mt-2">Fotografía</p>
+                </a>
+            </li>
+            <li class="g-col-6 g-col-md-4 g-col-lg-3">
+                <a href="#" class="text-decoration-none">
+                    <div class="bg-light">
+                        <img src="build/img/iconos-08.png" alt="imgicono8" class="img-fluid">
+                    </div>
+                    <p class="fw-bold mt-2">Música</p>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section class="listado-categorias py-5 mt-5 bg-light" >
+        <div class="container-xl">
+            <p class="fw-bold fs-4">Temas por Categoría</p>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <p class="fw-bold fs-4">Desarrollo</p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="text-success fw-bold fs-5" href="#">Python</a>
+                            <p>30,000,000 de Estudiantes</p>
+                        </li>
+                        <li>
+                            <a class="text-success fw-bold fs-5" href="#">Desarrollo Web</a>
+                            <p>10,000,000 de Estudiantes</p>
+                        </li>
+                        <li>
+                            <a class="text-success fw-bold fs-5" href="#">Aprendizaje Automático</a>
+                            <p>6,000,000 de Estudiantes</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <p class="fw-bold fs-4">Negocios</p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="text-success fw-bold fs-5" href="#">Análisis Financiero</a>
+                            <p>1,000,000 de Estudiantes</p>
+                        </li>
+                        <li>
+                            <a class="text-success fw-bold fs-5" href="#">SQL</a>
+                            <p>4,000,000 de Estudiantes</p>
+                        </li>
+                        <li>
+                            <a class="text-success fw-bold fs-5" href="#">PMP</a>
+                            <p>1,000,000 de Estudiantes</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <p class="fw-bold fs-4">Informática & Software</p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="text-success fw-bold fs-5" href="#">Certificación AWS</a>
+                            <p>4,000,000 de Estudiantes</p>
+                        </li>
+                        <li>
+                            <a class="text-success fw-bold fs-5" href="#">Hacking Ético</a>
+                            <p>10,000,000 de Estudiantes</p>
+                        </li>
+                        <li>
+                            <a class="text-success fw-bold fs-5" href="#">Seguridad Informática</a>
+                            <p>4,000,000 de Estudiantes</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <p class="fw-bold fs-4">Diseño</p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="text-success fw-bold fs-5" href="#">Photoshop</a>
+                            <p>10,000,000 de Estudiantes</p>
+                        </li>
+                        <li>
+                            <a class="text-success fw-bold fs-5" href="#">Diseño Gráfico</a>
+                            <p>3,000,000 de Estudiantes</p>
+                        </li>
+                        <li>
+                            <a class="text-success fw-bold fs-5" href="#">Dibujo</a>
+                            <p>2,000,000 de Estudiantes</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#" class="btn btn-outline-dark">Explora más Temas</a>
+        </div>
+    </section>
+    <section class="container-xl py-3">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 order-2 order-md-1">
+                <img src="build/img/persona2.png" class="img-fluid" alt="persona2">
+            </div>
+            <div class="col-md-5 order-1 order-md-2">
+                <h2 class="fs-3">Conviérte en Instructor</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sapiente ab minima rem nihil delectus officiis reprehenderit illo voluptatem aliquam, possimus facere necessitatibus commodi sed at magni beatae enim fugiat.</p>
+                <a href="#" class="btn btn-dark">Empieza a enseñar hoy mismo</a>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light py-5">
+        <div class="container-xl">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h4 class="text-center">Empresas de todos los tamaños confían en nosotros</h4>
+                    <div class="logos">
+                        <div class="logo d-flex justify-content-center">
+                            <img src="build/img/logo-01.svg" alt="logoapple">
+                        </div>
+                        <div class="logo d-flex justify-content-center">
+                            <img src="build/img/logo-02.svg" alt="logobox">
+                        </div>
+                        <div class="logo d-flex justify-content-center">
+                            <img src="build/img/logo-03.svg" alt="logovw">
+                        </div>
+                        <div class="logo d-flex justify-content-center">
+                            <img src="build/img/logo-04.svg" alt="logonetflix">
+                        </div>
+                        <div class="logo d-flex justify-content-center">
+                            <img src="build/img/logo-05.svg" alt="logoneventbrite">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-xl py-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5">
+                <h2 class="fs-3">
+                    Universidad <span class="text-success">Business</span>
+                </h2>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique fuga nobis sint ad quos cumque quod sequi distinctio. Optio cupiditate et unde odio sunt nisi consequuntur sapiente, in debitis reiciendis.</p>
+                <a href="#" class="btn btn-dark">Consigue U Business</a>
+            </div>
+            <div class="col-md-5">
+                <img src="build/img/persona3.png" alt="persona3" class="img-fluid">
+            </div>
+        </div>
+    </section>
+    <section class="container-xl py-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 order-2 order-md-1">
+                <img src="build/img/transforma.png" class="img-fluid" alt="transforma">
+            </div>
+            <div class="col-md-5 mb-5 mb-md-0 order-1 order-md-2">
+                <h2 class="fs-3">Transforma tu vida mediante la educación</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sapiente ab minima rem nihil delectus officiis reprehenderit illo voluptatem aliquam, possimus facere necessitatibus commodi sed at magni beatae enim fugiat.</p>
+                <a href="#" class="btn btn-dark">Descubre cómo</a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark py-5">
+        <div class="container-xl">
+            <div class="row align-items-start">
+                <nav class="col-md-2 d-grid gap-2">
+                    <a href="#" class="text-light text-decoration-none">U Business</a>
+                    <a href="#" class="text-light text-decoration-none">Enseña en U</a>
+                    <a href="#" class="text-light text-decoration-none">Consigue la App</a>
+                    <a href="#" class="text-light text-decoration-none">¿Quiénes Somos?</a>
+                    <a href="#" class="text-light text-decoration-none">Contacto</a>
+                </nav>
+                <nav class="col-md-2 d-grid gap-2">
+                    <a href="#" class="text-light text-decoration-none">Empleo</a>
+                    <a href="#" class="text-light text-decoration-none">Blog</a>
+                    <a href="#" class="text-light text-decoration-none">Ayuda y Asistencia</a>
+                    <a href="#" class="text-light text-decoration-none">Afiliado</a>
+                </nav>
+                <nav class="col-md-2 d-grid gap-2 me-auto">
+                    <a href="#" class="text-light text-decoration-none">Condiciones</a>
+                    <a href="#" class="text-light text-decoration-none">Política de Provacidad</a>
+                    <a href="#" class="text-light text-decoration-none">Mapa de Sitio</a>
+                </nav>
+                <div class="col-md-2">
+                    <a href="#" class="btn btn-outline-light">Español</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-xl mt-5 d-flex justify-content-between align-items-center">
+            <p class="text-light fw-bold fs-3"><span class="text-success">U</span>niversidad</p>
+            <p class="text-light">&copy; U, inc.</p>
+        </div>
+    </footer>
+</body>
+</html>
