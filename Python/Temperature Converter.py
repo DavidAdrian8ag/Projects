@@ -12,6 +12,5 @@ elif sel == 2:
     temp_final = (temp_inicial*(9/5))+32
     print("The temperature ", temp_inicial, " C is ",temp_final, " in F")
 else:
-    print("You did not choose a correct option.") 
+    print("You did not choose a correct option.")
 
-    
