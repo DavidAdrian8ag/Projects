@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html class="backgr"  lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My "to do" List</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="backspacework" >
+    <div  id="contenido">
+        <div class="container">
+            <h1 class="titulo">Local Storage</h1>
+            <div class="row">
+                <div class="six columns">
+                    <label for="task" class="centro">New Item:</label>
+                    <form  id="formu">
+                            <label for="task"></label>
+                            <textarea id="task" class="u-full-width"></textarea>
+                            <input type="submit" class="button u-full-width button-primary" value="Add to the List">
+                    </form>
+                </div>
+                <div class="six columns">
+                    <h2 class="lista">My "to do" List</h2>
+                    <ol ><div class="numbertask" id="do-list">  </div></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
