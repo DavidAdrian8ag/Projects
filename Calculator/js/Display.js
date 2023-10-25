@@ -7,10 +7,10 @@ class Display {
           this.preevValue = '';
           this.pressValue = '';
           this.signo = {
-               add: '+',
+               sumar: '+',
                restar: '-',
-               div: '/',
-               mult: 'x'
+               dividir: '/',
+               multiplicar: 'x'
           }
      }
      delete() {
