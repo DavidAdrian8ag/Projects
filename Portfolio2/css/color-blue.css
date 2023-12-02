@@ -1,0 +1,47 @@
+
+.symp-btn:hover,
+.process:hover > .number,
+.service > .icon,
+.timeline > li:not(.timeline-header):before,
+.process > .number > span:after,
+.close-btn > span:before{
+	background:#73C2FB;
+}
+
+.process > .number,
+.skill > h4,
+.front-person-links > ul > li > a:hover{
+	color:#b00ff0;
+	font-weight: bolder;
+	font-size: x-large;
+}
+.skill > h4 {
+	color:#777;
+}
+.number > span {
+	color:#73C2FB;
+}
+.number > span:hover {
+	color: #F5F5F5;
+}
+
+.process.last > .number > span:before,
+.process > .number{
+	border-color:#73C2FB;
+}
+.process > .number > span:before{
+	border-left-color:#73C2FB;
+}
+
+
+
+
+
+
+
+.footer-social > li > a:hover{
+	color:#00008B;
+	background-color: rgb(252, 252, 252);
+	font-weight: bolder;
+	font-size: x-large;
+}
